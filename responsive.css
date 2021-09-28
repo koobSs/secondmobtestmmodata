@@ -1,5 +1,5 @@
 
-@media (max-width: 375px) { 
+@media (min-width: 375px) { 
     body {
         overflow-x: hidden;
     }
@@ -12,10 +12,11 @@
         left: 88%;
     }
     #locate {
-        left: 27.6%;
+        left: 25.6%;
     }
     #text {
-        left: 60.2%;
+        width: 100px;
+        left: 51.2%;
         top: 28px;
     }
     .wow {
@@ -35,7 +36,7 @@
         font-size: 20px;
     }
     #login {
-        left: 790px;
+        left: 670px;
         top: 35px;
         font-size: 20px;
     }
@@ -85,7 +86,92 @@
         left: 460px;
     }
  }
-
+@media (min-width: 425px) {
+    body {
+        overflow-x: hidden;
+    }
+    .wrapper img{
+        width: 1398px;
+        height: 690px;
+    }
+    #identity h1 {
+        top: 350px;
+        left: 88%;
+    }
+    #locate {
+        left: 24.6%;
+    }
+    #text {
+        left: 50.2%;
+        top: 28px;
+    }
+    .wow {
+        width: 97.5%;
+    }
+    #mobinfo {
+        opacity: 0%;
+    }
+    #cord {
+        left: 100px;
+        top: 35px;
+        font-size: 20px;
+    }
+    #steam {
+        left: 250px;
+        top: 35px;
+        font-size: 20px;
+    }
+    #login {
+        left: 730px;
+        top: 35px;
+        font-size: 20px;
+    }
+    #login:hover {
+        font-size: 21px;
+    }
+    #welcomemsg {
+        width: 2000px;
+        text-overflow: ellipsis;
+        left: 259px
+    }
+    #musiclab {
+        left: 450px;
+    }
+    #musicimg {
+        left: 219px;
+    }
+    #aboutmusic {
+        width: 2000px;
+        left: 120px
+    }
+    #videoslab {
+        left: 430px
+    }
+    #videosimg {
+        left: 177px
+    }
+    #aboutvideos {
+        width: 800px;
+        top: 2360px;
+        left: 130px
+    }
+    #gameslab {
+        top: 2450px;
+        left: 427px
+    }
+    #gamesimg {
+        top: 2940px;
+        left: 137px;
+    }
+    #aboutgames {
+        width: 900px;
+        top: 3010px;
+        left: 137px;
+    }
+    #blogin {
+        left: 460px;
+    }
+}
 
 @media (min-width: 768px) {
     body {
